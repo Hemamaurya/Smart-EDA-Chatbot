@@ -31,10 +31,12 @@ Q2-Dataset ki summary statistics dikhao
 Q1-Har column mein kitne null values hain?
 Q2-Null values ka percentage dikhao
 
-# 📈 Charts & Visualization
+## 📈 Charts & Visualization
 
 Q1-Salary ka histogram chart banao output_chart.png me save karo
+
 Q2-State wise employee count bar chart banao output_chart.png me save karo
+
 Q3-Absences ka boxplot banao output_chart.png me save karo
 
 # 💰 Salary Analysis
