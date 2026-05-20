@@ -21,50 +21,53 @@
 3. Add Groq API key in `.env` file: `GROQ_API_KEY=your_key`
 4. Run: `streamlit run app.py`
 
-📊 Data Overview
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Q1 → Dataset mein total kitne rows, columns aur missing values hain — ek saath batao
+# 📊 Data Overview Questions
 
-Q2 → Har column ka data type aur null percentage ek table mein dikhao
+Q1-Kitne rows aur columns hain?
+Q2-Dataset ki summary statistics dikhao
+
+# 🔍 Missing Values
+
+Q1-Har column mein kitne null values hain?
+Q2-Null values ka percentage dikhao
+
+# 📈 Charts & Visualization
+
+Q1-Salary ka histogram chart banao output_chart.png me save karo
+Q2-State wise employee count bar chart banao output_chart.png me save karo
+Q3-Absences ka boxplot banao output_chart.png me save karo
+
+# 💰 Salary Analysis
+
+Sabse zyada salary kitni hai?
+Top 10 highest paid employees kaun hain?
+Salary ka median kya hai?
+
+# 👥 Employee Analysis
+
+Department wise employee count dikhao
+EmploymentStatus wise employee count dikhao
+
+# ⭐ Performance Analysis
+
+PerformanceScore wise employee count dikhao
+Sabse zyada PerformanceScore wale top 5 employees kaun hain?
+
+# 📅 Date & Tenure Analysis
+
+Kitne employees terminated hain?
+TermReason wise count dikhao
+
+# 🔗 Correlation Analysis
+
+Salary aur PerformanceScore ka scatter plot banao output_chart.png me save karo
+Sabhi numeric columns ka correlation heatmap banao output_chart.png me save karo
+
+# 🎯 Advanced Questions
+
+Sabse zyada absenteeism kis department mein hai?
+Remote wale employees kitne hain?
 
 
-📈 Charts & Visualization
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Q3 → Department wise employee count ka attractive bar chart banao output_chart.png me save karo
-
-Q4 → Salary distribution ka histogram with KDE curve banao output_chart.png me save karo
 
 
-💰 Salary Analysis
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Q5 → Department wise average, minimum aur maximum salary ek table mein dikhao
-
-Q6 → Top 10 highest paid employees ke naam aur salary dikhao
-
-
-👥 Employee Analysis
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Q7 → GenderID aur MaritalDesc wise employee count ek saath dikhao
-
-Q8 → RecruitmentSource wise employee count dikhao — sabse popular source kaun sa hai
-
-
-⭐ Performance Analysis
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Q9 → Department wise average PerformanceScore aur EngagementSurvey dikhao
-
-Q10 → Top 5 highest PerformanceScore wale employees ke naam aur department dikhao
-
-
-🔗 Correlation Analysis
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Q11 → Salary aur Absences ka scatter plot banao output_chart.png me save karo
-
-Q12 → Sabhi numeric columns ka correlation heatmap banao output_chart.png me save karo
-
-
-🎯 Advanced Insights
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Q13 → Sabse zyada absenteeism kis department mein hai — bar chart banao output_chart.png me save karo
-
-Q14 → EmploymentStatus wise employee count aur unki average salary ek table mein dikhao
